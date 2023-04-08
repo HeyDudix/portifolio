@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', 'sans-seri';
+}
+
+.background{
+    background: black;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 6%;
+    padding-right: 25%;
+}
+
+nav h2{
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+span{
+    color:#003fc7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul li a:hover{
+    color:#fffb00;
+    transform: scale(1.2);
+}
+
+
+.btn{
+    background-color: #003fc7;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+
+.btn:hover{
+   transform: scale(1.2);
+}
+
+
+.Main{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    transform: translateY(-50);
+}
+
+
+h3{
+    color: #003fc7;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    position: relative;
+}
+ h3:before{
+    content: "Olá! Me chamo Marks Cruz";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow:hidden;
+    color: #ffffff;
+    border-right: 6px solid #ffffff;
+    transition: 1s ease-in-out;
+ }
+ 
+ h3:hover:before{
+     width: 100%;
+     filter: drop-shadow(0 0 25px lightb);
+ 
+ }
+
+h2{
+    color:#ffffff;
+    margin: 20px 0px 20px;
+    font-size: 20px;
+    font-family: 'Georgia';
+}
+
+
+.img{
+    padding-left: 40%;
+    position:absolute;
+    top: 150px ;
+    right: 400px;
+    width: 80%;
+}
+

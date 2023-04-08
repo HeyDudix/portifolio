@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', 'sans-seri';
+}
+
+.background{
+    background: black;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 6%;
+    padding-right: 25%;
+}
+
+nav h2{
+    color:white;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+
+span{
+    color:#003fc7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul li a:hover{
+    color:#fffb00;
+    transform: scale(1.2);
+}
+
+
+.btn{
+    background-color: #003fc7;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+
+.btn:hover{
+   transform: scale(1.2);
+}
+
+
+.Main{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    transform: translateY(-50);
+}
+
+
+h3{
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+}
+
+h4{
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    cursor: pointer;
+}
+
+ul{
+    color:#ffffff;
+    margin: 20px 0px 20px;
+    font-size: 18px;
+    font-family: 'Heveltica';
+    text-align: justify;
+}
+
+.img{
+    position: absolute;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    top: 250px;
+    left: 900px;
+    transition: transform .4s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+.formacoes{
+    width: 25ch;
+    animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 15px;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color:rgb(255, 255, 255);
+    }
+}
